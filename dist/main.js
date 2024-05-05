@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.multiplicar = void 0;
 function multiplicar(a, b) {
     return a * b;
