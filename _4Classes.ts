@@ -11,6 +11,13 @@ export class User {
         this.lastName = lastName;
         this.age = age
     }
+
+    //Pegando o nome completo do USER por meio de um METDODO
+    public getFullName(){
+        return `${this.firstName} ${this.lastName}`
+    }
+
+
 };
 
 
@@ -18,7 +25,4 @@ export class User {
 //Instanciando*CriandoObjetos da Classe USER
 let user1 = new User ("Erivaldo", "de Jesus", 36);
 
-
-
-
-console.log(user1);
+console.log(user1.getFullName());
